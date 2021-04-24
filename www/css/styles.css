@@ -1,0 +1,9 @@
+@import "less/bootstrap.less";
+@import "variables.less";
+header {
+  background: url(../images/bg_logo.png) no-repeat top center / cover;
+  height: 700px;
+}
+header .logo img {
+  margin-top: 44px;
+}
