@@ -1,4 +1,4 @@
-@import "less/bootstrap.less";
+@import "../../src/less/bootstrap.less";
 @import "variables.less";
 header {
   background: url(../images/bg_logo.png) no-repeat top center / cover;
@@ -6,4 +6,23 @@ header {
 }
 header .logo img {
   margin-top: 44px;
+}
+header .top-menu {
+  text-align: right;
+}
+header .top-menu .menu {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+header .top-menu .menu li {
+  display: inline;
+  margin-right: 38px;
+  margin-top: 40px;
+}
+header .top-menu .menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
 }
